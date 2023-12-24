@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/awd_signup"
+    android:layout_height="match_parent"
+    tools:context=".IntroActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to\nAddis Wonderer"
+        android:layout_marginTop="640dp"
+        android:textSize="30dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        >
+    </TextView>
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Explore new places inside Addis Ababa\nand get new experiences"
+         android:layout_marginStart="20dp">
+
+     </TextView>
+     <androidx.appcompat.widget.AppCompatButton
+         android:id="@+id/get_started"
+         android:layout_width="160dp"
+         android:layout_height="60dp"
+         android:layout_marginStart="260dp"
+         android:textColor="@color/white"
+         android:layout_marginTop="80dp"
+         android:background="@drawable/intro_btn_bkg"
+          android:text="Get started">
+
+     </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>
